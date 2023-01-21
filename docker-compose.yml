@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  api:
+    image: swaggerapi/petstore:latest
+    ports:
+      - 8080:8080
