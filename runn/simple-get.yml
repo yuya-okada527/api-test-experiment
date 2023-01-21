@@ -1,0 +1,10 @@
+desc: Simple API GET Request
+runners:
+  req: http://localhost:8080
+steps:
+  - req:
+      /api/pet/1:
+        get:
+          headers:
+            Accept: application/json
+          body: null

@@ -7,4 +7,4 @@ services:
   runn:
     image: ghcr.io/k1low/runn:v0.56.0
     # volumes:
-    #   - ./runn:
+    #   - ./runn:/runn
