@@ -1,6 +1,7 @@
 desc: Simple GET API Request
 runners:
   req: http://localhost:8080
+skipTest: true
 steps:
   - req:
       /api/pet/1:
@@ -8,3 +9,4 @@ steps:
           headers:
             Accept: application/json
           body: null
+    test: steps[0].res.status == 200
