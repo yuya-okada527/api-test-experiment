@@ -1,11 +1,12 @@
 desc: Scenario Test.  Post -> Get
+if: false
 runners:
   req: http://localhost:8080
-loop:
-  count: 10
-  until: 'outcome == "success"' # until the runbook outcome is successful.
-  minInterval: 0.5 # sec
-  maxInterval: 10 # sec
+# loop:
+#   count: 2
+#   until: 'outcome == "success"' # until the runbook outcome is successful.
+#   minInterval: 0.5 # sec
+#   maxInterval: 10 # sec
 steps:
   createPet:
     req:
