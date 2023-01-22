@@ -1,0 +1,22 @@
+desc: Simple POST API Request
+runners:
+  req: http://localhost:8080
+steps:
+  - req:
+      /api/pet:
+        post:
+          headers:
+            Accept: application/json
+          body:
+            application/json:
+              id: 0
+              category:
+                id: 0
+                name: "string"
+              name: "doggie"
+              photoUrls:
+                - "String"
+              tags:
+                - id: 0
+                  name: "string"
+              status: "available"

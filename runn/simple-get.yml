@@ -1,4 +1,4 @@
-desc: Simple API GET Request
+desc: Simple GET API Request
 runners:
   req: http://localhost:8080
 steps:
